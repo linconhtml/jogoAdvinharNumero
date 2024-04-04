@@ -47,11 +47,6 @@ function limparCampo(){
 function verificarChute (){
 
     let chute = document.querySelector("input").value;
-    console.log(chute);
-
-         if (chute||chute===null){
-            exibirTextoTela ("p", "opz, o caixa ta vazia, digite um numero de 1 a 10");
-        	}
 
         if (chute==numeroSecreto) {
 
